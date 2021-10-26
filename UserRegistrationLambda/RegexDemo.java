@@ -12,7 +12,9 @@ public class RegexDemo {
 		System.out.println("Enter first name");
 		regexDemo.firstName();
 	}
-
+	/*
+	 * method to validate first name
+	 */
 	public void firstName() {
 		String input = sc.next();
 		String regex = "^[A-Z]{1}[a-z]{2,}$";
